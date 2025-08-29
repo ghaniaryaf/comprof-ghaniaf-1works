@@ -7,8 +7,8 @@ import Footer from './components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'NexTech Solutions - Innovating Your Digital Future',
-  description: 'Leading provider of cutting-edge technology solutions for businesses worldwide.',
+  title: '{Asri Panca Teknik}',
+  description: 'Leading provider of integrated security solutions.',
 };
 
 export default function RootLayout({
