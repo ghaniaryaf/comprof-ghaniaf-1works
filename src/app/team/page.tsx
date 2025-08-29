@@ -20,7 +20,7 @@ const TeamPage = () => {
         <div className="mt-16 bg-gray-50 p-8 rounded-lg">
           <h2 className="text-2xl font-semibold mb-4 text-center">Join Our Team</h2>
           <p className="text-gray-600 text-center mb-6 max-w-2xl mx-auto">
-            We're always looking for talented individuals to join our growing team. If you're passionate about technology and innovation, we'd love to hear from you.
+            We&#39;re always looking for talented individuals to join our growing team. If you&#39;re passionate about technology and innovation, we&#39;d love to hear from you.
           </p>
           <div className="text-center">
             <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors" onClick={() => window.location.href = 'https://www.linkedin.com/'}>

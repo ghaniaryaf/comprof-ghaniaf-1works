@@ -6,7 +6,7 @@ const Testimonials = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-4">What Our Clients Say</h2>
         <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-          Don't just take our word for it. Here's what our satisfied clients have to say about our services.
+          Don&#39;t just take our word for it. Here&#39;s what our satisfied clients have to say about our services.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -21,7 +21,7 @@ const Testimonials = () => {
                   <p className="text-gray-600 text-sm">{testimonial.company}</p>
                 </div>
               </div>
-              <p className="text-gray-600 italic">"{testimonial.text}"</p>
+              <p className="text-gray-600 italic">&#39;{testimonial.text}&#39;</p>
             </div>
           ))}
         </div>

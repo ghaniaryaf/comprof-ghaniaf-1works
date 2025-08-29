@@ -1,4 +1,5 @@
 import { companyInfo } from '@/data/mockData';
+import Image from 'next/image';
 
 const CompanyOverview = () => {
   return (
@@ -17,7 +18,7 @@ const CompanyOverview = () => {
           
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <div className="aspect-video bg-gradient-to-r from-blue-400 to-purple-500 rounded-lg flex items-center justify-center text-white text-xl font-bold">
-              <img src="https://media.licdn.com/dms/image/v2/C4D1BAQFu0Yp6cAjBpA/company-background_10000/company-background_10000/0/1595870235019/asri_panca_teknik_cover?e=2147483647&v=beta&t=Km0y3cUSadDIBSU5e-vtGaCNvLuNi4RkiQGIATirqqM" alt="company-thumbnail" />
+              <Image src="https://media.licdn.com/dms/image/v2/C4D1BAQFu0Yp6cAjBpA/company-background_10000/company-background_10000/0/1595870235019/asri_panca_teknik_cover?e=2147483647&v=beta&t=Km0y3cUSadDIBSU5e-vtGaCNvLuNi4RkiQGIATirqqM" alt="company-thumbnail" />
             </div>
             <div className="mt-6 grid grid-cols-3 gap-4 text-center">
               <div>

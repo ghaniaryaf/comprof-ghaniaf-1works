@@ -27,10 +27,10 @@ const ServicesPage = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="font-semibold">{testimonial.name}</h4>
-                    <p className="text-gray-600 text-sm">{testimonial.company}</p>
+                    <p className="text-gray-600 text-sm">&#39;{testimonial.company}&#39;</p>
                   </div>
                 </div>
-                <p className="text-gray-600 italic">"{testimonial.text}"</p>
+                <p className="text-gray-600 italic">{testimonial.text}</p>
               </div>
             ))}
           </div>
